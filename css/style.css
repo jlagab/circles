@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins|Raleway');
+
+
+
+body {
+    width: 100%;
+    margin: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)
+    ), url(../img/Bokeh_all_over.jpg);
+    background-repeat: no-repeat;
+    font-family: 'Raleway', sans-serif;
+}
+
+section {
+    height:100vh;
+    margin-top: -20px;
+    
+}
+
+#inscription {
+    position: absolute;
+    display: inline-block;
+    margin: auto;
+    top:50vh;
+    text-align: center;
+}
+
+.choix {
+    position: absolute;
+    bottom: 5vh;
+width: 100%;
+    text-transform: uppercase;
+}
+
+.ou {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+.btn {
+    letter-spacing: 0;
+    background-color: #F75F60;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    padding-top: 7px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    margin-top: 10px;
+}
+
+.btn:hover,
+.btn:active {
+  letter-spacing: 2px;
+}
+
+
+
+
+input { 
+	width: 80%; 
+	margin-bottom: 10px; 
+	background: rgba(0,0,0,0.7);
+	border:2px solid #FECE77;
+    border-radius: 10px;
+	outline: none;
+	padding: 10px;
+	font-size: 13px;
+	color: #fff;	
+    font-family: 'Raleway' sans-serif;
+}
+
+input:focus {
+    border-color:#F75F60;
+}
+
+p {
+    color: white;
+    font-family: 'Raleway' sans-serif;
+}
+
+#fonctionnement {
+    background: #F75F60;
+    margin-top: 0;
+}
+
+#partage {
+    background: #FECE77;
+}
+
+#charte {
+    background: #5681BB;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    text-transform: uppercase;
+}
+
+
+
+
+
